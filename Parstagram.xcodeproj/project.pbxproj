@@ -21,6 +21,7 @@
 		F1E726D62411E68E006D78E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E726D42411E68E006D78E3 /* LaunchScreen.storyboard */; };
 		F1E726E12411E68E006D78E3 /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E726E02411E68E006D78E3 /* ParstagramTests.swift */; };
 		F1E726EC2411E68F006D78E3 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E726EB2411E68F006D78E3 /* ParstagramUITests.swift */; };
+		F1EE9273241842C5000AA7EB /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE9272241842C5000AA7EB /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		F1E726E72411E68F006D78E3 /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E726EB2411E68F006D78E3 /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		F1E726ED2411E68F006D78E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EE9272241842C5000AA7EB /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		F3077595C803DFAB593BAD4C /* Pods_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 				F1E726D22411E68E006D78E3 /* Assets.xcassets */,
 				F1E726D42411E68E006D78E3 /* LaunchScreen.storyboard */,
 				F1E726D72411E68E006D78E3 /* Info.plist */,
+				F1EE9272241842C5000AA7EB /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				F1C5547C241214E600353645 /* FeedViewController.swift in Sources */,
 				F1E726CC2411E68B006D78E3 /* SceneDelegate.swift in Sources */,
 				F1C5548024122C3F00353645 /* PostCell.swift in Sources */,
+				F1EE9273241842C5000AA7EB /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
